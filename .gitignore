@@ -12,3 +12,5 @@ serverless.yml
 
 # Make sure webhook URLs are not leaked
 project-url-to-discord-webhook-url.js
+# Hide .env file
+.env
