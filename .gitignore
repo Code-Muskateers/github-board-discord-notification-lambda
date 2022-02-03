@@ -1,22 +1,14 @@
-# Git-материал
+# git stuff
 .git/
 
-# Модули узла
+# Node modules
 node_modules/
 
-# Убедитесь, что переменные env не просочились в репозиторий
-безсерверный.yml
+# Make sure env variables are not leaked to the repository
+serverless.yml
 
-# конкретная папка без сервера
-.бессерверный/
+# specific folder without server
+.serverless/
 
-# Убедитесь, что URL-адреса веб-хуков разногласий не утекли
-проект-url-to-discord-webhook-url.js
-
-### README START
-# Что это?
-
-![пример-уведомления](./readme/img/work.gif)
-
-Этот репозиторий содержит лямбда-функцию, которая получает обновления GitHub Board (через GitHub Webhook) и пересылает их в Discord.
-Это позволяет пользователю выбирать, какие каналы Discord будут получать уведомления при получении изменений.
+# Make sure webhook URLs are not leaked
+project-url-to-discord-webhook-url.js
